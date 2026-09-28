@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/keepyaml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keep timestamps and yaml durations for scripts and CI receipts.",
+  "bin": {
+    "keepyaml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/keepyaml.git"
+  },
+  "homepage": "https://theworker02.github.io/keepyaml/",
+  "keywords": [
+    "keep",
+    "yaml",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
